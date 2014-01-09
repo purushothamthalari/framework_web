@@ -1,0 +1,47 @@
+/* tables */
+table.tablesorter {
+	font-family:font-family:"Segoe UI", "Segoe UI Light", arial;color:#333333; font-size:12px; font-weight:normal;
+	background-color: #CDCDCD; 
+	margin:0px 0pt 15px 6px;
+	font-size: 8pt;
+	width: 99%;
+	text-align: left;
+	 
+	 
+	 
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #c5e1ff;
+	/*border: 1px solid #ceb682;*/
+	font-size: 8pt;
+	padding: 4px 0 0 2px; text-align:left;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8; text-align:left;
+}
+table.tablesorter  tbody tr:hover td { background:#b1c5e0;}
+table.tablesorter  tbody tr:hover td.odd { background:#b1c5e0;}
+
+table.tablesorter tbody td a.meterlink { color:#3164B7; text-decoration:none;}
+table.tablesorter tbody td a:hover.meterlink { color:#3164B7; text-decoration:underline;} 

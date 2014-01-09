@@ -1,0 +1,1 @@
+<div class="load_footer"> powered by FW &reg;  </div>
