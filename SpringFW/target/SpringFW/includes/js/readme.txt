@@ -1,1 +1,0 @@
-http://line25.com/articles/jquery-plugins-for-styling-checkbox-radio-buttons
